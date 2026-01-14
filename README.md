@@ -1,305 +1,460 @@
-# 📚 Bibliometric Analysis Complete Guide
-**By Mahbub Hassan**  
-*PhD Student, Civil Engineering (Transportation)*  
-*Chulalongkorn University, Bangkok, Thailand*
+# 📚 Complete Bibliometric Analysis Guide
+**From Zero to Published Research Paper**
 
-[![GitHub stars](https://img.shields.io/github/stars/mahbubchula/Bibliometric-Analysis-by-Mahbub)](https://github.com/mahbubchula/Bibliometric-Analysis-by-Mahbub/stargazers)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/mahbubchula/Bibliometric-Analysis-by-Mahbub/graphs/commit-activity)
+<div align="center">
 
----
+![GitHub stars](https://img.shields.io/github/stars/mahbubchula/Bibliometric-Analysis-by-Mahbub?style=social)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)
 
-## 🎯 Overview
+**Master R Biblioshiny & VOSviewer | Step-by-Step Guide for Beginners**
 
-Welcome to the most comprehensive, beginner-friendly guide to bibliometric analysis! This interactive course takes you from absolute zero to publishing your first bibliometric paper using **R Biblioshiny** and **VOSviewer**.
+[🚀 Get Started](#-quick-start) • [📖 Modules](#-course-modules) • [💻 Templates](#-included-templates) • [📧 Contact](#-contact)
 
-### 🌟 What Makes This Course Special?
-
-- **Zero to Hero Approach**: Designed for complete beginners
-- **Interactive Learning**: Beautiful, modern UI with expandable sections
-- **Step-by-Step Guidance**: Every single step explained in detail
-- **Practical Examples**: Real datasets and code templates included
-- **Publication-Ready**: Learn to write and publish your analysis
+</div>
 
 ---
 
-## 📖 Course Modules
+## 👨‍🎓 About the Author
 
-### Module 1: Introduction to Bibliometric Analysis
-- Understanding bibliometric analysis fundamentals
-- Key terminology and concepts
-- Types of bibliometric studies
-- Research applications in transportation engineering
+<table>
+<tr>
+<td>
+<img src="https://img.shields.io/badge/Student-Master's-blue?style=for-the-badge" alt="Master's Student"/>
+</td>
+<td>
 
-### Module 2: Data Collection Strategies
-- Web of Science navigation and export
-- Scopus search techniques
-- Designing effective search queries
-- Data quality assurance
+**Mahbub Hassan**  
+Master's Student in Civil Engineering (Transportation)  
+*Non-ASEAN Scholar*
 
-### Module 3: R Biblioshiny Analysis
-- Installation and setup guide
-- Data import and conversion
-- Descriptive statistics
-- Performance analysis (most cited papers, authors, journals)
-- Trend analysis and temporal evolution
-- Co-occurrence networks
-- Thematic mapping
-- Visualization generation
+🏛️ **Chulalongkorn University**  
+📍 Bangkok, Thailand  
+🎓 Faculty of Engineering  
+🔬 Department of Civil Engineering
 
-### Module 4: VOSviewer Visualization
-- Software installation
-- Network construction techniques
-- Co-citation analysis
-- Bibliographic coupling
-- Co-authorship networks
-- Keyword co-occurrence
-- Customization and export
+</td>
+</tr>
+</table>
 
-### Module 5: Writing Your Paper
-- Standard paper structure
-- Reporting guidelines
-- Result interpretation
-- Journal selection tips
-- Submission process
+---
 
-### Module 6: Resources & Templates
-- R code templates
-- Sample datasets
-- PRISMA diagram templates
-- Manuscript templates
-- Supplementary materials examples
+## 🌟 What is This Course?
+
+This is the **most comprehensive, beginner-friendly guide** to bibliometric analysis available online. Whether you're a Master's student, PhD researcher, or academic professional, this interactive course will take you from absolute beginner to publishing your first bibliometric paper.
+
+### ✨ Why Choose This Course?
+
+| Feature | Description |
+|---------|-------------|
+| 🎯 **Zero to Hero** | No prior knowledge required |
+| 🎨 **Beautiful UI** | Modern, Chula-themed interface |
+| 📊 **Complete Tools** | R Biblioshiny + VOSviewer |
+| 💻 **Ready-to-Use** | Code templates included |
+| 📝 **Publication-Ready** | Q1 journal standards |
+| 🆓 **100% Free** | MIT Licensed, open source |
 
 ---
 
 ## 🚀 Quick Start
 
-### Option 1: Access Online Course
-Simply open `index.html` in your web browser to start the interactive course immediately!
+### Option 1: Start Learning Immediately (No Installation)
 
 ```bash
-# Clone the repository
-git clone https://github.com/mahbubchula/Bibliometric-Analysis-by-Mahbub.git
-
-# Open the course
-cd Bibliometric-Analysis-by-Mahbub
-open index.html  # macOS
-start index.html  # Windows
-xdg-open index.html  # Linux
+# Simply open index.html in your browser
+# Works offline, no setup needed!
 ```
 
-### Option 2: GitHub Pages (Coming Soon)
-Visit: `https://mahbubchula.github.io/Bibliometric-Analysis-by-Mahbub`
+1. Download or clone this repository
+2. Open `index.html` in any modern browser
+3. Start with Module 1: Introduction
+4. Follow the interactive lessons
+
+### Option 2: Use the Templates
+
+```bash
+# For R Analysis
+1. Install R and RStudio
+2. Open templates/biblioshiny_scripts/complete_analysis_template.R
+3. Modify for your data
+4. Run and generate results!
+```
 
 ---
 
-## 💻 Prerequisites
+## 📖 Course Modules
 
-### For Biblioshiny Analysis:
-- **R** (version 4.0 or higher)
-- **RStudio** (recommended but optional)
-- **bibliometrix** R package
+### 📚 Module 1: Introduction to Bibliometrics
+**What You'll Learn:**
+- Understanding bibliometric analysis fundamentals
+- Key concepts: citations, co-citation, bibliographic coupling
+- Types of bibliometric studies
+- Real-world applications in research
+- When to use bibliometric methods
 
-### For VOSviewer Analysis:
-- **Java Runtime Environment** (JRE 8 or higher)
-- **VOSviewer** software (free download)
-
-### Data Access:
-- Institutional access to **Web of Science** or **Scopus**
-- Alternative: Google Scholar (limited functionality)
+**Duration:** 1-2 hours
 
 ---
 
-## 📦 Repository Structure
+### 🔍 Module 2: Data Collection Strategies
+**What You'll Learn:**
+- Designing effective search queries with Boolean operators
+- Web of Science: Complete navigation guide
+- Scopus: Step-by-step data export
+- Data quality assurance and validation
+- Common pitfalls and how to avoid them
+
+**Duration:** 2-3 hours
+
+**Hands-On Practice:** Sample search queries provided
+
+---
+
+### 📊 Module 3: R Biblioshiny Analysis
+**What You'll Learn:**
+- R and Biblioshiny installation (Windows/Mac/Linux)
+- Data import and conversion
+- Descriptive statistics generation
+- Performance analysis (most cited papers, authors, journals)
+- Temporal trend analysis
+- Keyword co-occurrence networks
+- Thematic mapping and evolution
+- Network visualization techniques
+
+**Duration:** 4-6 hours
+
+**Deliverables:** 20+ publication-quality tables and plots
+
+---
+
+### 🕸️ Module 4: VOSviewer Network Visualization
+**What You'll Learn:**
+- VOSviewer installation and setup
+- Network construction from bibliographic data
+- Co-citation analysis techniques
+- Bibliographic coupling
+- Co-authorship networks (authors, countries, institutions)
+- Keyword co-occurrence visualization
+- Advanced customization and styling
+- Exporting high-resolution figures
+
+**Duration:** 3-4 hours
+
+**Deliverables:** Professional network visualizations
+
+---
+
+### ✍️ Module 5: Writing & Publishing Your Paper
+**What You'll Learn:**
+- Standard bibliometric paper structure
+- PRISMA guidelines for systematic reviews
+- Reporting best practices
+- Interpreting and discussing results
+- Journal selection strategies
+- Submission process tips
+
+**Duration:** 2-3 hours
+
+**Resources:** Paper templates and examples
+
+---
+
+### 📦 Module 6: Resources & Templates
+**What You'll Get:**
+- Complete R code templates
+- Sample datasets for practice
+- Bibliometric cheat sheets
+- Visualization style guides
+- PRISMA diagram templates
+- Manuscript templates
+
+---
+
+## 💻 Included Templates
+
+### 🔬 R Biblioshiny Complete Analysis Template
+**File:** `templates/biblioshiny_scripts/complete_analysis_template.R`
+
+**Features:**
+- ✅ 21 analysis sections
+- ✅ Automatic generation of 20+ statistical tables
+- ✅ Creation of 15+ publication-quality plots
+- ✅ All major bibliometric analyses included
+- ✅ Comprehensive inline documentation
+- ✅ Export data for VOSviewer
+- ✅ Generates summary reports
+
+**What It Does:**
+```r
+✓ Data import (WoS, Scopus, PubMed)
+✓ Descriptive statistics
+✓ Annual production trends
+✓ Most cited papers/authors/journals
+✓ Author productivity over time
+✓ H-index calculations
+✓ Country analysis and collaboration
+✓ Keyword analysis and trends
+✓ Co-occurrence networks
+✓ Co-citation analysis
+✓ Bibliographic coupling
+✓ Author collaboration networks
+✓ Thematic mapping
+✓ Thematic evolution
+✓ Conceptual structure (MCA)
+✓ Historiograph
+✓ Three-field plots
+✓ And much more!
+```
+
+---
+
+## 📁 Repository Structure
 
 ```
 Bibliometric-Analysis-by-Mahbub/
-├── index.html                 # Main interactive course
-├── README.md                  # This file
-├── LICENSE                    # MIT License
-├── examples/                  # Example datasets and outputs
-│   ├── sample_wos_data.txt
-│   ├── sample_scopus_data.csv
-│   └── example_outputs/
-├── templates/                 # Code and document templates
-│   ├── biblioshiny_scripts/
-│   ├── vosviewer_guides/
-│   └── paper_templates/
-├── resources/                 # Additional learning materials
-│   ├── cheat_sheets/
-│   ├── video_tutorials/
-│   └── recommended_readings/
-└── assets/                    # Images and styling
-    ├── css/
-    ├── images/
-    └── fonts/
+│
+├── 📄 index.html                      # ⭐ Main interactive course
+├── 📄 README.md                       # This file
+├── 📄 GETTING_STARTED.md              # Quick start guide
+├── 📄 PROJECT_SUMMARY.md              # Project overview
+├── 📄 LICENSE                         # MIT License
+│
+├── 📁 templates/                      # Code templates
+│   ├── 📁 biblioshiny_scripts/
+│   │   └── complete_analysis_template.R
+│   ├── 📁 vosviewer_guides/
+│   └── 📁 paper_templates/
+│
+├── 📁 examples/                       # Sample data
+│   └── 📁 sample_data/
+│       ├── sample_wos.txt
+│       └── sample_scopus.csv
+│
+└── 📁 resources/                      # Reference materials
+    ├── 📁 cheat_sheets/
+    │   └── biblioshiny_quick_reference.md
+    ├── 📁 video_tutorials/
+    └── 📁 recommended_readings/
 ```
 
 ---
 
-## 🎓 Learning Path
+## 🛠️ Installation & Prerequisites
 
-### Beginner (Week 1-2)
-1. Complete Module 1: Introduction
-2. Learn Module 2: Data Collection
-3. Practice with sample datasets
+### For the Web Course (index.html)
+**Requirements:**
+- ✅ Any modern web browser (Chrome, Firefox, Safari, Edge)
+- ✅ No installation needed
+- ✅ Works completely offline
 
-### Intermediate (Week 3-4)
-4. Master Module 3: Biblioshiny Analysis
-5. Complete Module 4: VOSviewer Visualization
-6. Analyze your own dataset
-
-### Advanced (Week 5-6)
-7. Study Module 5: Writing Your Paper
-8. Draft your manuscript
-9. Prepare for journal submission
-
----
-
-## 🔥 Key Features
-
-### Interactive Learning Experience
-- **Expandable Sections**: Click to reveal detailed content
-- **Code Examples**: Copy-paste ready code blocks
-- **Visual Guides**: Beautiful Chula-themed design
-- **Progress Tracking**: Monitor your learning journey
-
-### Comprehensive Coverage
-- **150+ Step-by-Step Instructions**
-- **50+ Code Examples**
-- **30+ Visualization Techniques**
-- **20+ Real-world Examples**
-
-### Publication Quality
-- **Q1 Journal Standards**
-- **Reporting Guidelines Compliant**
-- **Reproducible Research Practices**
-- **Open Science Principles**
-
----
-
-## 📊 Example Analyses Included
-
-### Transportation Engineering Examples:
-- Electric Vehicle Adoption Research
-- Sustainable Mobility Studies
-- Smart City Transportation
-- Traffic Safety Analysis
-
-### General Examples:
-- Machine Learning Applications
-- Climate Change Research
-- Public Health Studies
-- Artificial Intelligence
-
----
-
-## 🛠️ Installation Guides
-
-### Installing R and Biblioshiny
-
+### For R Biblioshiny Analysis
+**Requirements:**
 ```r
-# Install R from: https://cran.r-project.org/
+# Required Software
+- R (version 4.0 or higher)
+- RStudio (recommended but optional)
 
-# Install RStudio from: https://posit.co/download/rstudio-desktop/
-
-# Install bibliometrix package
+# R Package
 install.packages("bibliometrix")
-
-# Load library
 library(bibliometrix)
-
-# Launch Biblioshiny
-biblioshiny()
+biblioshiny()  # Launch web interface
 ```
 
-### Installing VOSviewer
+**Download Links:**
+- R: https://cran.r-project.org/
+- RStudio: https://posit.co/download/rstudio-desktop/
 
-```bash
-# Download from: https://www.vosviewer.com/download
+### For VOSviewer Analysis
+**Requirements:**
+- Java Runtime Environment (JRE 8 or higher)
+- VOSviewer software (free download)
 
-# Windows: Run installer
-# macOS: Extract and run
-# Linux: Extract and run (requires Java)
-```
+**Download Links:**
+- Java: https://www.java.com/download/
+- VOSviewer: https://www.vosviewer.com/download
+
+### For Data Collection
+**Access Needed:**
+- Web of Science (institutional access) - **Recommended**
+- Scopus (institutional access)
+- Alternative: Google Scholar (limited functionality)
+
+**For Chulalongkorn Students:**
+Access via: https://www.car.chula.ac.th/ → Databases
+
+---
+
+## 📊 Example Analyses
+
+### Transportation Engineering (My Field!)
+- 🚗 Electric vehicle adoption patterns
+- 🚦 Traffic safety research trends
+- 🏙️ Smart city transportation systems
+- 🌱 Sustainable mobility solutions
+- 🚌 Public transit optimization
+
+### Other Fields Covered
+- 🤖 Machine learning applications
+- 🌍 Climate change research
+- 💊 Public health studies
+- 🧠 Artificial intelligence
+- 🏗️ Civil engineering topics
+
+---
+
+## 🎯 Learning Outcomes
+
+Upon completing this course, you will be able to:
+
+✅ **Understand** bibliometric analysis principles and applications  
+✅ **Design** effective search queries for literature retrieval  
+✅ **Collect** high-quality bibliographic data from major databases  
+✅ **Perform** comprehensive analysis using R Biblioshiny  
+✅ **Create** professional network visualizations with VOSviewer  
+✅ **Interpret** bibliometric results correctly and meaningfully  
+✅ **Write** and structure a bibliometric research paper  
+✅ **Publish** your analysis in academic journals  
 
 ---
 
 ## 📈 Sample Workflow
 
-### 1. Define Research Question
-Example: *"What are the research trends in electric vehicle adoption?"*
+### Real Research Example: "Electric Vehicle Adoption"
 
-### 2. Design Search Query
+#### Week 1: Data Collection
 ```
-TS=("electric vehicle*" OR "EV" OR "battery electric") 
-AND 
-TS=("adoption" OR "acceptance" OR "intention")
-```
-
-### 3. Collect Data
-- Export from Web of Science (Full Record + Cited References)
-- Save as .txt files
-
-### 4. Analyze in Biblioshiny
-```r
-library(bibliometrix)
-M <- convert2df("data.txt", dbsource = "wos", format = "plaintext")
-results <- biblioAnalysis(M)
-plot(results, k=10)
+1. Define research question
+2. Design search query:
+   TS=("electric vehicle*" OR "EV" OR "battery electric") 
+   AND TS=("adoption" OR "acceptance")
+3. Search Web of Science
+4. Export 500 documents with full records
 ```
 
-### 5. Visualize in VOSviewer
-- Import data → Create map → Customize → Export
+#### Week 2: Initial Analysis
+```
+1. Import data into Biblioshiny
+2. Generate descriptive statistics
+3. Identify most cited papers
+4. Analyze publication trends
+```
 
-### 6. Write Your Paper
-- Use provided templates
-- Follow reporting guidelines
-- Include all visualizations
+#### Week 3: Network Analysis
+```
+1. Create keyword co-occurrence network
+2. Generate co-citation network
+3. Build collaboration networks
+4. Visualize in VOSviewer
+```
+
+#### Week 4: Advanced Analysis
+```
+1. Thematic mapping
+2. Thematic evolution over time
+3. Trend analysis
+4. Conceptual structure mapping
+```
+
+#### Week 5-6: Writing
+```
+1. Structure manuscript
+2. Insert visualizations
+3. Write interpretations
+4. Prepare for submission
+```
+
+---
+
+## 🔥 Key Features
+
+### Interactive Web Course
+- 🎨 Beautiful Chula-themed design (Pink, Purple, Gold)
+- 📱 Responsive layout (works on mobile, tablet, desktop)
+- 🔄 Expandable sections for easy navigation
+- ⚡ Smooth animations and transitions
+- 🎯 Progress tracking
+- 💡 Interactive code examples
+
+### Comprehensive Coverage
+- 📚 6 complete modules
+- 🔢 150+ step-by-step instructions
+- 💻 50+ code examples
+- 📊 30+ visualization techniques
+- 🎓 20+ real-world examples
+- 📝 Publication guidelines
+
+### Production-Ready Tools
+- ✅ Copy-paste R code templates
+- ✅ Automated analysis workflows
+- ✅ Professional visualization styles
+- ✅ Q1 journal quality standards
+- ✅ Reproducible research practices
+- ✅ Open science principles
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Whether it's:
-- Reporting bugs
-- Suggesting new features
-- Adding examples
-- Improving documentation
-- Translating content
+Contributions are welcome! Here's how you can help:
 
-Please feel free to open an issue or submit a pull request.
+### Ways to Contribute
+- 🐛 Report bugs or issues
+- 💡 Suggest new features or improvements
+- 📝 Improve documentation
+- 🌍 Translate content to other languages
+- 📊 Add example datasets
+- 🎨 Enhance visualizations
+- 📚 Share your use cases
+
+### How to Contribute
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
 ## 📧 Contact
 
-**Mahbub Hassan**  
-PhD Student in Civil Engineering (Transportation)  
-Chulalongkorn University, Bangkok, Thailand
+<div align="center">
 
-- 📧 Email: 6870376421@student.chula.ac.th
-- 📧 IEEE Email: mahbub.hassan@ieee.org
-- 💻 GitHub: [@mahbubchula](https://github.com/mahbubchula)
-- 🔗 Google Scholar: [Profile](https://scholar.google.com)
-- 🔗 ResearchGate: [Profile](https://www.researchgate.net)
-- 🔗 ORCID: [Profile](https://orcid.org)
+### Mahbub Hassan
+**Master's Student in Civil Engineering (Transportation)**  
+**Chulalongkorn University, Bangkok, Thailand**
+
+[![Email](https://img.shields.io/badge/Email-6870376421%40student.chula.ac.th-red?style=for-the-badge&logo=gmail)](mailto:6870376421@student.chula.ac.th)
+[![IEEE Email](https://img.shields.io/badge/IEEE-mahbub.hassan%40ieee.org-blue?style=for-the-badge&logo=ieee)](mailto:mahbub.hassan@ieee.org)
+[![GitHub](https://img.shields.io/badge/GitHub-mahbubchula-black?style=for-the-badge&logo=github)](https://github.com/mahbubchula)
+
+</div>
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+**What this means:**
+- ✅ Free to use for any purpose
+- ✅ Modify and distribute freely
+- ✅ Use in commercial projects
+- ✅ No warranty provided
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **Chulalongkorn University** for institutional support
-- **Faculty of Engineering** for providing research facilities
-- **R bibliometrix team** for the excellent package
-- **VOSviewer developers** for the visualization tool
-- **Open Science Community** for sharing knowledge
+Special thanks to:
+
+- 🏛️ **Chulalongkorn University** - Institutional support and resources
+- 🎓 **Faculty of Engineering** - Research facilities and guidance
+- 👨‍🏫 **Department of Civil Engineering** - Academic mentorship
+- 📦 **R bibliometrix team** - Excellent open-source package
+- 🕸️ **VOSviewer developers** - Powerful visualization tool
+- 🌍 **Open Science Community** - Knowledge sharing and collaboration
+- 📚 **GitHub Community** - Feedback and contributions
 
 ---
 
@@ -312,47 +467,120 @@ If you use this course in your research or teaching, please cite:
   author = {Hassan, Mahbub},
   title = {Complete Bibliometric Analysis Guide: From Zero to Published},
   year = {2025},
-  publisher = {GitHub},
-  url = {https://github.com/mahbubchula/Bibliometric-Analysis-by-Mahbub}
+  institution = {Chulalongkorn University},
+  address = {Bangkok, Thailand},
+  howpublished = {\url{https://github.com/mahbubchula/Bibliometric-Analysis-by-Mahbub}},
+  note = {Master's thesis research materials}
 }
+```
+
+**APA Style:**
+```
+Hassan, M. (2025). Complete Bibliometric Analysis Guide: From Zero to Published. 
+Chulalongkorn University. https://github.com/mahbubchula/Bibliometric-Analysis-by-Mahbub
 ```
 
 ---
 
-## 🌟 Star History
+## 🌟 Show Your Support
 
-If you find this course helpful, please consider giving it a star ⭐️
+If you find this course helpful, please consider:
+
+- ⭐ **Starring** this repository
+- 🔄 **Sharing** with your colleagues
+- 📢 **Recommending** to your students
+- 💬 **Providing feedback** via issues
+- 🤝 **Contributing** improvements
+
+<div align="center">
+
+### Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=mahbubchula/Bibliometric-Analysis-by-Mahbub&type=Date)](https://star-history.com/#mahbubchula/Bibliometric-Analysis-by-Mahbub&Date)
 
+</div>
+
 ---
 
-## 📈 Repository Stats
+## 📊 Repository Stats
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/mahbubchula/Bibliometric-Analysis-by-Mahbub)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mahbubchula/Bibliometric-Analysis-by-Mahbub)
 ![GitHub issues](https://img.shields.io/github/issues/mahbubchula/Bibliometric-Analysis-by-Mahbub)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/mahbubchula/Bibliometric-Analysis-by-Mahbub)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=mahbubchula.Bibliometric-Analysis-by-Mahbub)
 
 ---
 
 ## 🔗 Quick Links
 
-- [📖 Start Learning Now](index.html)
-- [💡 Example Datasets](examples/)
-- [📝 Code Templates](templates/)
-- [🎥 Video Tutorials](resources/video_tutorials/)
-- [❓ FAQ](resources/faq.md)
-- [🐛 Report Issues](https://github.com/mahbubchula/Bibliometric-Analysis-by-Mahbub/issues)
+| Resource | Link |
+|----------|------|
+| 📖 **Start Course** | [Open index.html](index.html) |
+| 🚀 **Quick Start Guide** | [GETTING_STARTED.md](GETTING_STARTED.md) |
+| 📋 **Project Summary** | [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md) |
+| 💻 **R Template** | [complete_analysis_template.R](templates/biblioshiny_scripts/complete_analysis_template.R) |
+| 📝 **Cheat Sheet** | [biblioshiny_quick_reference.md](resources/cheat_sheets/biblioshiny_quick_reference.md) |
+| 🐛 **Report Issues** | [GitHub Issues](https://github.com/mahbubchula/Bibliometric-Analysis-by-Mahbub/issues) |
+| 📧 **Contact Me** | [mahbub.hassan@ieee.org](mailto:mahbub.hassan@ieee.org) |
+
+---
+
+## 📝 Version History
+
+### Version 1.0.0 (January 2025)
+- ✨ Initial public release
+- 📚 Complete 6-module interactive course
+- 💻 Full R Biblioshiny analysis template
+- 🎨 Beautiful Chula-themed user interface
+- 📖 Comprehensive documentation
+- 🔧 Sample datasets and examples
+- 📋 Quick reference cheat sheets
+
+---
+
+## 🎯 Future Plans
+
+- [ ] Add video tutorials for each module
+- [ ] Create Python alternative using pybliometrics
+- [ ] Include more domain-specific examples
+- [ ] Add interactive quizzes and assessments
+- [ ] Develop mobile app version
+- [ ] Translate to Thai language
+- [ ] Add advanced visualization techniques
+- [ ] Create case study database
 
 ---
 
 <div align="center">
 
-### 🎓 From Chulalongkorn University with 💖
+## 🎓 From Chulalongkorn University with 💖
 
-**Happy Learning and Good Luck with Your Research!** 🚀
+<img src="https://img.shields.io/badge/Chula-Pink%20%26%20Purple-FF1493?style=for-the-badge" alt="Chula Colors"/>
+<img src="https://img.shields.io/badge/Status-Ready%20to%20Learn-success?style=for-the-badge" alt="Status"/>
+<img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red?style=for-the-badge" alt="Open Source"/>
 
-Made with ❤️ by [Mahbub Hassan](https://github.com/mahbubchula)
+### Happy Learning and Good Luck with Your Research! 🚀
+
+**Made with ❤️ by [Mahbub Hassan](https://github.com/mahbubchula)**
+
+*Master's Student | Civil Engineering (Transportation)*  
+*Chulalongkorn University | Bangkok, Thailand*
+
+---
+
+**"Empowering researchers through systematic bibliometric analysis"**
+
+</div>
+
+---
+
+<div align="center">
+
+**Last Updated:** January 2025  
+**License:** MIT  
+**Status:** Active Development ✨
+
+[⬆ Back to Top](#-complete-bibliometric-analysis-guide)
 
 </div>
